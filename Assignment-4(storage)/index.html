@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <title>Storage Assignment</title>
+        <style>
+            h1{
+                margin: 20px;
+                text-align: center;
+            }
+            .localStorage {
+                text-align: center;
+                margin: 0px 20px;
+                padding: 10px;
+                border: 3px;
+                border-style: solid;
+                width: 15%;
+            }
+            .sessionStorage{
+                text-align: center;
+                margin: 0px 20px;
+                padding: 10px;
+                border: 3px;
+                border-style: solid;
+                width: 15%;
+            }
+            p{
+                margin-bottom: 0px;
+            }
+            h5{
+                font-weight: 900;
+                color: rebeccapurple;
+            }
+            h1{
+                color: firebrick;
+            }
+            .display-4{
+                color: olivedrab;
+            }
+        </style>
+    </head>
+    <body>
+        <div">
+            <h1 class="display-3" >Storage</h1>
+            <div class="d-flex justify-content-center" style="margin: 20px; text-align: 'center'">
+                <div class="localStorage">
+                    <h5>Local Storage</h5>
+                    <p>Local Score</p>
+                    <h2 id="localScore" class="display-4"></h2>
+                    <button type="button" class="btn btn-primary" id="localUpdateButton">Update</button>
+                    <button type="button" class="btn btn-danger" id="localResetButton">Reset</button>
+                </div>
+                <div class="sessionStorage">
+                    <h5>Session Storage</h5>
+                    <p>Session Score</p>
+                    <h2 id="sessionScore" class="display-4"></h2>
+                    <button type="button" class="btn btn-primary" id="sessionUpdateButton">Update</button>
+                    <button type="button" class="btn btn-danger" id="sessionResetButton">Reset</button>
+                </div>
+            </div>
+        </div>
+        <script src="assignment-4.js"></script>
+    </body>
+</html>
